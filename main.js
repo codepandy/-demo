@@ -50,5 +50,4 @@ var req=http.request(option, function (sres) {
 req.on('error', function (e) {
     console.log(`error:${e.message}`);
 });
-console.log('aaaaa');
 req.end();
