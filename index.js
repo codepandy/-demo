@@ -7,7 +7,7 @@ var iconv = require('iconv-lite');//解决gb2312乱码
 let url = "http://chuanke.baidu.com/";
 let query = 'mod=note&act=my&page=';
 let result = cheerio.load('<div class="container"></div>', { decodeEntities: false });
-cookie = '';//从浏览器中获取你的cookie，如果你获取的网页不需要登录验证，那header都不需要设置
+cookie = '';//从浏览器中获取你的cookie，如果你获取的网页不需要登录验证，那header都不需要设置ssss
 
 for (let i = 63; i > 60; i--) {
     //let i = 62;
